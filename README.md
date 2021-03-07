@@ -3,6 +3,7 @@
 1. index.jsをつくる
 2. action.ymlをつくる
 3. node_modules は.gitignoreしない
+    * シンボリックリンクがあるとエラーになる
 
 ### 参考
 * JavaScript アクションを作成する
