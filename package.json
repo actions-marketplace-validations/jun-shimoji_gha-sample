@@ -1,28 +1,24 @@
 {
-  "name": "line-notify",
+  "name": "gha-sample",
   "version": "1.0.0",
-  "description": "LINE Notify for GitHub Actions",
+  "description": "1. index.jsをつくる 2. action.ymlをつくる 3. node_modules は.gitignoreしない",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/snow-actions/line-notify.git"
-  },
-  "keywords": [
-    "GitHub",
-    "Actions",
-    "JavaScript"
-  ],
-  "author": "GitHub",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/snow-actions/line-notify/issues"
-  },
-  "homepage": "https://github.com/snow-actions/line-notify#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
     "request": "^2.88.0"
-  },
+  },  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jun-shimoji/gha-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jun-shimoji/gha-sample/issues"
+  },
+  "homepage": "https://github.com/jun-shimoji/gha-sample#readme"
 }
