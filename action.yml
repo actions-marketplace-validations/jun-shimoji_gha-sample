@@ -1,5 +1,5 @@
-name: 'LINE Notify'
-description: 'LINE Notify for GitHub Actions'
+name: 'junsh Notify'
+description: 'junsh Notify for GitHub Actions'
 inputs:
   my_url: ${{ secrets.MY_URL }}
   access_token:
